@@ -1,0 +1,6 @@
+//
+//  SceneDelegate.swift
+//  ios widget
+//
+//  Created by Melek Yılmaz on 14.03.2025.
+//

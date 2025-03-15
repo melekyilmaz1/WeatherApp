@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_3" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&quot;Bugün, yeni bir gökyüzü ve taze bir başlangıç.&quot; " lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eed-rF-log">
+                                <rect key="frame" x="10" y="318" width="402" height="107"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="107" id="XAG-LO-XOd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <color key="textColor" systemColor="opaqueSeparatorColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Melek Yılmaz" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qey-Cc-NhP">
+                                <rect key="frame" x="20" y="796" width="362" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" systemColor="opaqueSeparatorColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="weather 2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="q2h-CT-Hpz">
+                                <rect key="frame" x="-56" y="-118" width="534" height="1230"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="&quot;Bugün, yeni bir gökyüzü ve taze bir başlangıç.&quot; " lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8n0-DB-Vu8">
+                                <rect key="frame" x="10" y="277" width="392" height="236"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="236" id="X5N-tN-nur"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <color key="textColor" systemColor="systemGray2Color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Melek Yılmaz" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pbb-h1-tNE">
+                                <rect key="frame" x="20" y="759" width="362" height="28.666666666666629"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" systemColor="systemGray3Color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="eed-rF-log" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="3S1-rU-e8T"/>
+                            <constraint firstItem="eed-rF-log" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="256" id="4iN-9b-Jfn"/>
+                            <constraint firstItem="eed-rF-log" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="AMo-gF-RiT"/>
+                            <constraint firstItem="Pbb-h1-tNE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Dqq-Az-Pvt"/>
+                            <constraint firstItem="q2h-CT-Hpz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="HpW-TT-qbB"/>
+                            <constraint firstItem="8n0-DB-Vu8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Hqf-9V-bjE"/>
+                            <constraint firstItem="8n0-DB-Vu8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="215" id="MAD-5I-i7Q"/>
+                            <constraint firstItem="qey-Cc-NhP" firstAttribute="top" secondItem="Pbb-h1-tNE" secondAttribute="bottom" constant="20" id="OFD-E2-hvV"/>
+                            <constraint firstItem="eed-rF-log" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="10" id="PMp-5j-8rK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="q2h-CT-Hpz" secondAttribute="trailing" id="SCA-cv-Zz5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="qey-Cc-NhP" secondAttribute="bottom" constant="20" id="Sya-Mc-wUE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Pbb-h1-tNE" secondAttribute="trailing" constant="20" id="XgO-bf-DIX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="q2h-CT-Hpz" secondAttribute="bottom" id="j3w-TY-o06"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8n0-DB-Vu8" secondAttribute="trailing" constant="20" id="mN6-kJ-5Ij"/>
+                            <constraint firstItem="q2h-CT-Hpz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="obj-6y-FeE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qey-Cc-NhP" secondAttribute="trailing" constant="20" id="rAg-MY-Adw"/>
+                            <constraint firstItem="qey-Cc-NhP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="yFM-Qu-hiz"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.238805970149251" y="374.14187643020591"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="weather 2.jpg" width="1080" height="2112"/>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGray3Color">
+            <color red="0.78039215689999997" green="0.78039215689999997" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
